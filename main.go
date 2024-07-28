@@ -14,15 +14,15 @@ type ExternalAPIResponse struct {
 	//     "message": "Hello, world!",
 	//     "status": 200
 	// }
-	Message string `json:"message"`
-	Status  int    `json:"status"`
+	One string `json:"one"`
+	Key string `json:"key"`
 }
 
 func main() {
 	r := gin.Default()
 
 	r.GET("/call-external-api", func(c *gin.Context) {
-		externalAPIURL := "https://api.example.com/endpoint" // Replace with the actual external API URL
+		externalAPIURL := "http://echo.jsontest.com/key/value/one/two" // Replace with the actual external API URL
 
 		// Prepare the request to the external API
 		req, err := http.NewRequest("GET", externalAPIURL, nil)

@@ -7,6 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// type struct
 type ExternalAPIResponse struct {
 	One string `json:"one"`
 	Key string `json:"key"`

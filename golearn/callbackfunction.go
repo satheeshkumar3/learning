@@ -1,4 +1,4 @@
-package main
+package learning
 
 // Function that takes a callback function as an argument
 func compute(value int, callback func(int) int) int {

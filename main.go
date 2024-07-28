@@ -32,7 +32,7 @@ func main() {
 		}
 
 		// Optionally, set headers if needed
-		req.Header.Set("Accept", "application/json")
+		//req.Header.Set("Accept", "application/json")
 
 		// Call the external API
 		client := &http.Client{}

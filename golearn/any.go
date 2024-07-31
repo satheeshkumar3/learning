@@ -1,8 +1,8 @@
-package main
+package golearn
 
 import "fmt"
 
-func anyGo() {
+func Any() {
 	var i any = "Hello, Go!"
 
 	// Type assertion

@@ -1,8 +1,8 @@
-package main
+package golearn
 
 import "fmt"
 
-func set() {
+func Set() {
 	set := make(map[string]struct{})
 	set["apple"] = struct{}{}
 	set["banana"] = struct{}{}
